@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -67,4 +71,17 @@ a:hover {
   justify-content: center;
   align-items: center;
   border-top: 1px solid grey;
+}
+.blog {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.content {
+  flex: 1 75%;
+  padding: 10px;
+}
+.sidebar {
+  flex: 1 25%;
+  padding: 10px;
 }
